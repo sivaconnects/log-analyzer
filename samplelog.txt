@@ -1,0 +1,20 @@
+2024-01-15 10:00:01 INFO Application started successfully
+2024-01-15 10:00:05 INFO Connected to config server
+2024-01-15 10:01:10 DEBUG Loading user settings
+2024-01-15 10:01:15 WARNING Disk usage above 70%
+2024-01-15 10:01:20 ERROR Failed to write to /var/log/app.log - Permission denied
+2024-01-15 10:01:25 INFO Request received: GET /api/health
+2024-01-15 10:01:30 ERROR Database connection timeout after 30s
+2024-01-15 10:01:35 WARNING Memory usage above 80%
+2024-01-15 10:02:00 INFO Request received: GET /api/health
+2024-01-15 10:02:05 ERROR Database connection timeout after 30s
+2024-01-15 10:02:10 INFO Request received: POST /api/data
+2024-01-15 10:02:15 ERROR Failed to write to /var/log/app.log - Permission denied
+2024-01-15 10:02:20 DEBUG Cache miss for key: user_session_482
+2024-01-15 10:02:25 WARNING Disk usage above 70%
+2024-01-15 10:02:30 INFO Scheduled job completed in 2.3s
+2024-01-15 10:03:00 CRITICAL Out of memory - killing process 4821
+2024-01-15 10:03:05 ERROR Service unavailable: payment-gateway
+2024-01-15 10:03:10 INFO Retrying connection... attempt 1
+2024-01-15 10:03:15 INFO Retrying connection... attempt 2
+2024-01-15 10:03:20 INFO Connection restored
